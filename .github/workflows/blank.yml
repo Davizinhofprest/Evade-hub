@@ -104,9 +104,9 @@ loadstring(game:HttpGet(("https://pastebin.com/raw/wzB1Qh78"), true))()
 end)
 
 
-local fe = DD:Channel("script gui")
+local EE = DD:Channel("script gui")
 
-fe:Button("custom key", function()
+EE:Button("custom key", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -117,7 +117,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
 end)
 
-fe:Button("# script rp/eb", function()
+EE:Button("# script rp/eb", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -189,11 +189,11 @@ end)
 
 
 local serv = win:Server("games", "rbxassetid://18549510834")
-local BB = serv:Channel("brookhaven")
+local B = serv:Channel("brookhaven")
 
-BB:Label("Script Brookhaven esse é brabo")
+B:Label("Script Brookhaven esse é brabo")
 
-BB:Button("jul hub", function()
+B:Button("jul hub", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -204,7 +204,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
 end)
 
-BB:Button("ImperialHub", function()
+B:Button("ImperialHub", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -215,7 +215,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
 end)
 
-BB:Button("SanderXV2.5", function()
+B:Button("SanderXV2.5", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
