@@ -1,3 +1,4 @@
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "abrindo",
@@ -117,9 +118,9 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
 end)
 
-local fe1 = DD:Channel("admin")
+local ABC = DD:Channel("admin")
 
-fe1:Button("ShatterVast Admin", function()
+ABC:Button("ShatterVast Admin", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -130,7 +131,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet("https://pastebin.com/raw/m66HEHFu"))()
 end)
 
-fe1:Button("Infnite yield", function()
+ABC:Button("Infnite yield", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -142,7 +143,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/KtyqgNCD"))()
 end)
 
 
-fe1:Button("CMD - X", function()
+ABC:Button("CMD - X", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -154,7 +155,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/So
 end)
 
 
-fe1:Button("Fates Admin", function()
+ABC:Button("Fates Admin", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
@@ -165,7 +166,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
-fe1:Button("Reviz Admin", function()
+ABC:Button("Reviz Admin", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
 	Name = "pronto",
