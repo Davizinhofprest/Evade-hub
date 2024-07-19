@@ -1,0 +1,155 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "abrindo",
+	Content = "script abrindo",
+	Image = "rbxassetid://18549510834",
+	Time = 5.9
+})
+wait(5)
+local DiscordLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt"))()
+
+local win = DiscordLib:Window("evade hub beta v2")
+local DD = win:Server("scripts", "rbxassetid://18549510834")
+local Btns = DD:Channel("Welcome")
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "pronto com sucesso",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+
+local function getPlayerName()
+    local player = game.Players.LocalPlayer
+    return player.Name
+end
+
+
+ 
+Btns:Label("Bem vindo ao evade hub  " .. getPlayerName())
+
+Btns:Label("feito pelo 99B8 e hack")
+
+Btns:Button("clip discord", function()
+setclipboard("https://discord.gg/3ufYgm678q")
+end)
+
+local hubs = DD:Channel("hubs")
+
+hubs:Button("tiger-X-v3", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+end)
+
+hubs:Button("davi-hub", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Davicoderliner/davi-hub-V2.3/main/davi.lua",true))()
+end)
+
+hubs:Button("lndex-hub", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IndexZHub/Loader/main/Loader"))()
+end)
+
+hubs:Button("fe troll hub", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+end)
+
+hubs:Button("ghost hub", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+local fe = DD:Channel("script gui")
+
+fe:Button("custom key", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end)
+
+local serv = win:Server("games", "rbxassetid://18549510834")
+local BB = serv:Channel("brookhaven")
+
+BB:Label("Script Brookhaven esse é brabo")
+
+BB:Button("jul hub", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "script executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+end)
+
+local BB = serv:Channel("eb")
+
+BB:Label("Puxar Armas Eb/Rp By: Pedroxz")
+
+BB:Button("puxa todas arma funciona em todos os jogos", function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    OrionLib:MakeNotification({
+	Name = "pronto",
+	Content = "todas arma puxada executado",
+	Image = "rbxassetid://18549510834",
+	Time = 5
+})
+for i,v in game.Players:GetDescendants() do
+    if v:IsA("Tool") then
+    v.Parent = game.Players.LocalPlayer.Backpack
+    end
+ end
+end)
+
+BB:Label("Mudar team (Risco) (funciona em server de anti cheat ruim) Nao testei, mais o cara que mandou postar falou que funcionava")
+
+BB:Textbox("time", "Type here!", true, function(t)
+
+local function getPlayerName()
+    local player = game.Players.LocalPlayer
+    return player.Name
+end
+
+local p = game.Players:FindFirstChild(getPlayerName())
+local t = game.Teams:FindFirstChild(t)
+if p and t then p.Team = t end
+end)
