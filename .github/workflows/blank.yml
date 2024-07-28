@@ -1,315 +1,360 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "abrindo",
-	Content = "script abrindo",
-	Image = "rbxassetid://18549510834",
-	Time = 5.9
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
+Library.DefaultColor = Color3.fromRGB(255,0,0)
+
+Library:Notification({
+	Text = "Evade hub by 99B8",
+	Duration = 6
 })
-wait(5)
-local DiscordLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt"))()
-
-local win = DiscordLib:Window("evade hub v3")
-local DD = win:Server("scripts", "http://www.roblox.com/asset/?id=18549510834")
-local Btns = DD:Channel("Welcome")
-
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "pronto com sucesso",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-
-local function getPlayerName()
-    local player = game.Players.LocalPlayer
-    return player.Name
-end
+wait(6)
 
 
- 
-Btns:Label("Bem vindo ao evade hub  " .. getPlayerName())
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
 
-Btns:Label("feito pelo 99B8 e hack")
+local UI = GUI:CreateWindow("evade hub v3.0","feito por 99b8 e hacker")
 
-Btns:Button("clip discord", function()
-setclipboard("https://discord.gg/3ufYgm678q")
+local Home = UI:addPage("Main",1,true,6)
+
+local player = game.Players.LocalPlayer
+local playerName = player.Name
+
+Home:addLabel("Welcome " .. playerName, "")
+
+
+Home:addButton("clip youtube hack",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://youtube.com/@evadehub?si=8RUAdGuK5NPfvN9B")
 end)
 
-Btns:Button("clip youtube hack", function()
-setclipboard("https://youtube.com/@evadehub?si=p9OoMMoi-BMrl_MS")
+Home:addButton("clip youtube 99b8",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://www.youtube.com/@99B8Scriptsofc")
 end)
 
-Btns:Button("clip youtube 99b8", function()
-setclipboard("https://www.youtube.com/@99B8Scriptsofc")
+Home:addButton("clip discord",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://discord.gg/TJx4htz9Z9")
 end)
 
-local hubs = DD:Channel("hubs")
+local hubs = UI:addPage("hubs",1,true,6)
 
-
-hubs:Button("tiger-X-v3", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+hubs:addButton("tiger hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
 end)
 
-hubs:Button("davi-hub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Davicoderliner/davi-hub-V2.3/main/davi.lua",true))()
+hubs:addButton("Multi Scripter X V3",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
 end)
 
-hubs:Button("lndex-hub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IndexZHub/Loader/main/Loader"))()
-end)
-
-hubs:Button("fe troll hub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
-end)
-
-hubs:Button("OrangeX", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/OrangeX-Hub-V3-Rel/main/OrangeX%20V3%20Milvan.txt"))()
-end)
-
-hubs:Button("hub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
+hubs:addButton("Equinox Hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
 loadstring(game:HttpGet(("https://pastebin.com/raw/wzB1Qh78"), true))()
 end)
 
-hubs:Button("fe nosso próprio hub de troll"), function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("utg menu", "DarkTheme")
 
-local Section = Tab:NewSection("hello hacker")
 
-Section:NewButton("admin panel", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()
-end)
+local hubs2 = UI:addPage("hubs2",1,true,6)
+
+hubs2:addButton("davi hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
 end)
 
-
-
-local EE = DD:Channel("script gui")
-
-EE:Button("custom key", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+hubs2:addButton("game hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
 end)
 
-EE:Button("# script rp/eb", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet('https://dpaste.com/C7F2DSP8R.txt'))()
+hubs2:addButton("lndex hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IndexZHub/Loader/main/Loader"))()
 end)
 
-EE:Button("fly gui", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40
-\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
-end)
-
-local ABC = DD:Channel("admin")
-
-ABC:Button("ShatterVast Admin", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://pastebin.com/raw/m66HEHFu"))()
-end)
-
-ABC:Button("Infnite yield", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://pastebin.com/raw/KtyqgNCD"))()
+hubs2:addButton("OrangeX Hub V3",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/OrangeX-Hub-V3-Rel/main/OrangeX%20V3%20Milvan.txt"))()
 end)
 
 
-ABC:Button("CMD - X", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
+local games = UI:addPage("games",1,true,6)
+
+games:addButton("all tycoon script",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://freenote.biz/raw/SkG1nrBqE8",true))()
+end)
+
+games:addButton("work a pizza place auto farm",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://pastebin.com/raw/xQTtE6D9"))()
+end)
+
+games:addButton("brookhaven Imperial hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+end)
+
+games:addButton("brookhaven SanderXV2.5",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
+end)
+
+local games2 = UI:addPage("games2",1,true,6)
+
+games:addButton("eb gui",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://pastebin.com/6jMv9tq6")))()
+end)local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
+Library.DefaultColor = Color3.fromRGB(255,0,0)
+
+Library:Notification({
+	Text = "Evade hub by 99B8",
+	Duration = 6
 })
+wait(6)
+
+
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
+
+local UI = GUI:CreateWindow("evade hub v3.0","feito por 99b8 e hacker")
+
+local Home = UI:addPage("Main",1,true,6)
+
+local player = game.Players.LocalPlayer
+local playerName = player.Name
+
+Home:addLabel("Welcome " .. playerName, "")
+
+
+Home:addButton("clip youtube hack",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://youtube.com/@evadehub?si=8RUAdGuK5NPfvN9B")
+end)
+
+Home:addButton("clip youtube 99b8",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://www.youtube.com/@99B8Scriptsofc")
+end)
+
+Home:addButton("clip discord",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "copiado";
+    })
+    setclipboard("https://discord.gg/TJx4htz9Z9")
+end)
+
+local hubs = UI:addPage("hubs",1,true,6)
+
+hubs:addButton("tiger hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20its%20Back"))()
+end)
+
+hubs:addButton("Multi Scripter X V3",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+end)
+
+hubs:addButton("Equinox Hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://pastebin.com/raw/wzB1Qh78"), true))()
+end)
+
+
+
+
+local hubs2 = UI:addPage("hubs2",1,true,6)
+
+hubs2:addButton("davi hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+end)
+
+hubs2:addButton("game hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+end)
+
+hubs2:addButton("lndex hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IndexZHub/Loader/main/Loader"))()
+end)
+
+hubs2:addButton("OrangeX Hub V3",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/OrangeX-Hub-V3-Rel/main/OrangeX%20V3%20Milvan.txt"))()
+end)
+
+
+local games = UI:addPage("games",1,true,6)
+
+games:addButton("all tycoon script",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://freenote.biz/raw/SkG1nrBqE8",true))()
+end)
+
+games:addButton("work a pizza place auto farm",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://pastebin.com/raw/xQTtE6D9"))()
+end)
+
+games:addButton("brookhaven Imperial hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+end)
+
+games:addButton("brookhaven SanderXV2.5",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
+end)
+
+local games2 = UI:addPage("games2",1,true,6)
+
+games2:addButton("eb gui",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(('https://pastebin.com/raw/XstKr68q')))()
+end)
+
+games2:addButton("batalha de slap",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://rawscripts.net/raw/GUIDE-Slap-Battles-GFET-Hub-OP-16064"))()
+end)
+
+
+local admin = UI:addPage("admin",1,true,6)
+
+admin:addButton("ShatterVast Admin",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(('https://pastebin.com/raw/m66HEHFu')))()
+end)
+
+admin:addButton("Infnite yield",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet(('https://pastebin.com/raw/KtyqgNCD')))()
+end)
+
+
+
+admin:addButton("cmd-x",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
 
 
-ABC:Button("Fates Admin", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
+
+admin:addButton("fates admin",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
-ABC:Button("Reviz Admin", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
+admin:addButton("reviz admin",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
 loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
 end)
-
-
-local serv = win:Server("games", "rbxassetid://18549510834")
-local B = serv:Channel("brookhaven")
-
-B:Label("Script Brookhaven esse é brabo")
-
-B:Button("jul hub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
-end)
-
-B:Button("ImperialHub", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
-end)
-
-B:Button("SanderXV2.5", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
-end)
-
-local BB = serv:Channel("eb")
-
-BB:Label("Puxar Armas Eb/Rp By: Pedroxz")
-
-BB:Button("puxa todas arma funciona em todos os jogos", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "todas arma puxada executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-for i,v in game.Players:GetDescendants() do
-    if v:IsA("Tool") then
-    v.Parent = game.Players.LocalPlayer.Backpack
-    end
- end
-end)
-
-BB:Label("Mudar team (Risco) (funciona em server de anti cheat ruim) Nao testei, mais o cara que mandou postar falou que funcionava")
-
-BB:Textbox("time", "Type here!", true, function(t)
-
-local function getPlayerName()
-    local player = game.Players.LocalPlayer
-    return player.Name
-end
-
-local p = game.Players:FindFirstChild(getPlayerName())
-local t = game.Teams:FindFirstChild(t)
-if p and t then p.Team = t end
-end)
-
-local S = serv:Channel("DUSTY TRIP")
-
-B:Button("SanderXV2.5", function()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    OrionLib:MakeNotification({
-	Name = "pronto",
-	Content = "script executado",
-	Image = "rbxassetid://18549510834",
-	Time = 5
-})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
-end)
-
