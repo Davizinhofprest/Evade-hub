@@ -223,6 +223,21 @@ loadstring(game:HttpGet(("https://pastebin.com/raw/wzB1Qh78"), true))()
 end)
 
 
+hubs:addButton("ro chips panel",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Rochips-Panel-15882"))()
+end)
+
+hubs:addButton("ghost hub",function()
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "pronto";
+        Text = "executado";
+    })
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-16101"))()
+end)
 
 
 local hubs2 = UI:addPage("hubs2",1,true,6)
